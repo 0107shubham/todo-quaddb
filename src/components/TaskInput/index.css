@@ -1,0 +1,21 @@
+.form-input {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.task-input {
+  height: 40px;
+  margin: 10px;
+  outline: none;
+  border: 2px solid purple;
+}
+
+.task-add-button {
+  width: 80px;
+  height: 35px;
+  margin: 10px;
+  color: white;
+  background-color: blue;
+  border-radius: 2px solid red;
+}
