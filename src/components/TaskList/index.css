@@ -11,6 +11,7 @@
   justify-content: space-between;
   align-items: center;
   width: 60%;
+  height: 65px;
 }
 .completed-container {
   background-color: green;
@@ -31,4 +32,51 @@
 .task-name {
   color: aliceblue;
   font-size: 24px;
+}
+
+@media only screen and (max-width: 678px) {
+  .checkBoxIcon {
+    transform: scale(1.1);
+  }
+  .deleteicon {
+    font-size: 24px;
+  }
+
+  .task-name {
+    color: aliceblue;
+    font-size: 20px;
+  }
+
+  .elemnt {
+    margin: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 55px;
+  }
+}
+
+@media only screen and (min-width: 678px) and (max-width: 1024px) {
+  .deleteicon {
+    font-size: 28px;
+  }
+
+  .task-name {
+    color: aliceblue;
+    font-size: 20px;
+  }
+
+  .elemnt {
+    margin: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 60px;
+  }
+
+  .checkBoxIcon {
+    transform: scale(1.3);
+  }
 }
